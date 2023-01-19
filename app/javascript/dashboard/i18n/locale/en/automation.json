@@ -1,118 +1,118 @@
 {
   "AUTOMATION": {
-    "HEADER": "Automations",
-    "HEADER_BTN_TXT": "Add Automation Rule",
-    "LOADING": "Fetching automation rules",
-    "SIDEBAR_TXT": "<p><b>Automation Rules</b> <p>Automation can replace and automate existing processes that require manual effort. You can do many things with automation, including adding labels and assigning conversation to the best agent. So the team focuses on what they do best and spends more little time on manual tasks.</p>",
+    "HEADER": "Automação",
+    "HEADER_BTN_TXT": "Adicionar regra de automação",
+    "LOADING": "Buscando regras de automação",
+    "SIDEBAR_TXT": "<p><b>Regras de automação</b> <p>A automação pode substituir e automatizar processos existentes que requerem esforço manual. Você pode fazer muitas coisas com automação, incluindo adicionar marcadores e atribuir a conversa ao melhor agente. \n\nEntão, a equipe se concentra no que faz melhor e passa mais pouco tempo em tarefas manuais.</p>",
     "ADD": {
-      "TITLE": "Add Automation Rule",
-      "SUBMIT": "Create",
-      "CANCEL_BUTTON_TEXT": "Cancel",
+      "TITLE": "Adicionar regra de automação",
+      "SUBMIT": "Criar",
+      "CANCEL_BUTTON_TEXT": "Cancelar",
       "FORM": {
         "NAME": {
-          "LABEL": "Rule Name",
-          "PLACEHOLDER": "Enter rule name",
-          "ERROR": "Name is required"
+          "LABEL": "Nome da Regra",
+          "PLACEHOLDER": "Inserir nome da regra",
+          "ERROR": "O nome é obrigatório"
         },
         "DESC": {
-          "LABEL": "Description",
-          "PLACEHOLDER": "Enter rule description",
-          "ERROR": "Description is required"
+          "LABEL": "Descrição",
+          "PLACEHOLDER": "Inserir descrição de regra",
+          "ERROR": "Descrição obrigatória"
         },
         "EVENT": {
-          "LABEL": "Event",
-          "PLACEHOLDER": "Please select one",
-          "ERROR": "Event is required"
+          "LABEL": "Evento",
+          "PLACEHOLDER": "Por favor, selecione um",
+          "ERROR": "Evento é obrigatório"
         },
         "CONDITIONS": {
-          "LABEL": "Conditions"
+          "LABEL": "Condições"
         },
         "ACTIONS": {
-          "LABEL": "Actions"
+          "LABEL": "Ações"
         }
       },
-      "CONDITION_BUTTON_LABEL": "Add Condition",
-      "ACTION_BUTTON_LABEL": "Add Action",
+      "CONDITION_BUTTON_LABEL": "Adicionar condição",
+      "ACTION_BUTTON_LABEL": "Adicionar ação",
       "API": {
-        "SUCCESS_MESSAGE": "Automation rule added successfully",
-        "ERROR_MESSAGE": "Could not able to create a automation rule, Please try again later"
+        "SUCCESS_MESSAGE": "Regra de automação adicionada com sucesso",
+        "ERROR_MESSAGE": "Não foi possível criar uma regra de automação, por favor, tente novamente mais tarde"
       }
     },
     "LIST": {
       "TABLE_HEADER": [
-        "Name",
-        "Description",
-        "Active",
-        "Created on"
+        "Nome",
+        "Descrição",
+        "Ativo",
+        "Criado em"
       ],
-      "404": "No automation rules found"
+      "404": "Nenhuma regra de automação encontrada"
     },
     "DELETE": {
-      "TITLE": "Delete Automation Rule",
-      "SUBMIT": "Delete",
-      "CANCEL_BUTTON_TEXT": "Cancel",
+      "TITLE": "Excluir Regra de Automação",
+      "SUBMIT": "Excluir",
+      "CANCEL_BUTTON_TEXT": "Cancelar",
       "CONFIRM": {
-        "TITLE": "Confirm Deletion",
-        "MESSAGE": "Are you sure to delete ",
-        "YES": "Yes, Delete ",
-        "NO": "No, Keep "
+        "TITLE": "Confirmar exclusão",
+        "MESSAGE": "Você tem certeza que deseja excluir ",
+        "YES": "Sim, excluir ",
+        "NO": "Não, Mantenha "
       },
       "API": {
-        "SUCCESS_MESSAGE": "Automation rule deleted successfully",
-        "ERROR_MESSAGE": "Could not able to delete a automation rule, Please try again later"
+        "SUCCESS_MESSAGE": "Regra de automação excluída com sucesso",
+        "ERROR_MESSAGE": "Não foi possível excluir uma regra de automação, por favor, tente novamente mais tarde"
       }
     },
     "EDIT": {
-      "TITLE": "Edit Automation Rule",
-      "SUBMIT": "Update",
-      "CANCEL_BUTTON_TEXT": "Cancel",
+      "TITLE": "Editar regra de automação",
+      "SUBMIT": "Atualizar",
+      "CANCEL_BUTTON_TEXT": "Cancelar",
       "API": {
-        "SUCCESS_MESSAGE": "Automation rule updated successfully",
-        "ERROR_MESSAGE": "Could not update automation rule, Please try again later"
+        "SUCCESS_MESSAGE": "Regra de automação atualizada com sucesso",
+        "ERROR_MESSAGE": "Não foi possível atualizar a regra de automação, por favor, tente novamente mais tarde"
       }
     },
     "CLONE": {
-      "TOOLTIP": "Clone",
+      "TOOLTIP": "Duplicar",
       "API": {
-        "SUCCESS_MESSAGE": "Automation cloned successfully",
-        "ERROR_MESSAGE": "Could not clone automation rule, Please try again later"
+        "SUCCESS_MESSAGE": "Automação clonada com sucesso",
+        "ERROR_MESSAGE": "Não foi possível clonar regra de automação, por favor, tente novamente mais tarde"
       }
     },
     "FORM": {
-      "EDIT": "Edit",
-      "CREATE": "Create",
-      "DELETE": "Delete",
-      "CANCEL": "Cancel",
-      "RESET_MESSAGE": "Changing event type will reset the conditions and events you have added below"
+      "EDIT": "Alterar",
+      "CREATE": "Criar",
+      "DELETE": "Excluir",
+      "CANCEL": "Cancelar",
+      "RESET_MESSAGE": "Alterar o tipo de evento irá redefinir as condições e eventos que você adicionou abaixo"
     },
     "CONDITION": {
-      "DELETE_MESSAGE": "You need to have atleast one condition to save",
-      "CONTACT_CUSTOM_ATTR_LABEL": "Contact Custom Attributes",
-      "CONVERSATION_CUSTOM_ATTR_LABEL": "Conversation Custom Attributes"
+      "DELETE_MESSAGE": "Você precisa ter pelo menos uma condição para salvar",
+      "CONTACT_CUSTOM_ATTR_LABEL": "Atributos personalizados do contato",
+      "CONVERSATION_CUSTOM_ATTR_LABEL": "Atributos personalizados da conversa"
     },
     "ACTION": {
-      "DELETE_MESSAGE": "You need to have atleast one action to save",
-      "TEAM_MESSAGE_INPUT_PLACEHOLDER": "Enter your message here",
-      "TEAM_DROPDOWN_PLACEHOLDER": "Select teams"
+      "DELETE_MESSAGE": "Você precisa ter pelo menos uma ação para salvar",
+      "TEAM_MESSAGE_INPUT_PLACEHOLDER": "Escreva sua mensagem aqui",
+      "TEAM_DROPDOWN_PLACEHOLDER": "Selecionar times"
     },
     "TOGGLE": {
-      "ACTIVATION_TITLE": "Activate Automation Rule",
-      "DEACTIVATION_TITLE": "Deactivate Automation Rule",
-      "ACTIVATION_DESCRIPTION": "This action will activate the automation rule '{automationName}'. Are you sure you want to proceed?",
-      "DEACTIVATION_DESCRIPTION": "This action will deactivate the automation rule '{automationName}'. Are you sure you want to proceed?",
-      "ACTIVATION_SUCCESFUL": "Automation Rule Activated Successfully",
-      "DEACTIVATION_SUCCESFUL": "Automation Rule Deactivated Successfully",
-      "ACTIVATION_ERROR": "Could not Activate Automation, Please try again later",
-      "DEACTIVATION_ERROR": "Could not Deactivate Automation, Please try again later",
-      "CONFIRMATION_LABEL": "Yes",
-      "CANCEL_LABEL": "No"
+      "ACTIVATION_TITLE": "Ativar regra de automação",
+      "DEACTIVATION_TITLE": "Desativar regra de automação",
+      "ACTIVATION_DESCRIPTION": "Esta ação ativará a regra de automação '{automationName}'. Tem certeza que deseja continuar?",
+      "DEACTIVATION_DESCRIPTION": "Esta ação irá desativar a regra de automação '{automationName}'. Tem certeza que deseja continuar?",
+      "ACTIVATION_SUCCESFUL": "Regra de automação ativada com sucesso",
+      "DEACTIVATION_SUCCESFUL": "Regra de automação desativada com sucesso",
+      "ACTIVATION_ERROR": "Não foi possível ativar a automação, por favor tente novamente mais tarde",
+      "DEACTIVATION_ERROR": "Não foi possível desativar a automação, por favor, tente novamente mais tarde",
+      "CONFIRMATION_LABEL": "Sim",
+      "CANCEL_LABEL": "Não"
     },
     "ATTACHMENT": {
-      "UPLOAD_ERROR": "Could not upload attachment, Please try again",
-      "LABEL_IDLE": "Upload Attachment",
-      "LABEL_UPLOADING": "Uploading...",
-      "LABEL_UPLOADED": "Successfully Uploaded",
-      "LABEL_UPLOAD_FAILED": "Upload Failed"
+      "UPLOAD_ERROR": "Não foi possível fazer upload do anexo, por favor, tente novamente",
+      "LABEL_IDLE": "Fazer upload de arquivo",
+      "LABEL_UPLOADING": "Enviando...",
+      "LABEL_UPLOADED": "Upload feito com sucesso",
+      "LABEL_UPLOAD_FAILED": "Faha no upload"
     }
   }
 }
