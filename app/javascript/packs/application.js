@@ -37,19 +37,6 @@ if (window.errorLoggingConfig) {
   Sentry.init({
     Vue,
     dsn: window.errorLoggingConfig,
-    denyUrls: [
-      // Chrome extensions
-      /^chrome:\/\//i,
-      /chrome-extension:/i,
-      /extensions\//i,
-
-      // Locally saved copies
-      /file:\/\//i,
-
-      // Safari extensions.
-      /safari-web-extension:/i,
-      /safari-extension:/i,
-    ],
     integrations: [new Integrations.BrowserTracing()],
   });
 }
