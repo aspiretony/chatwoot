@@ -31,6 +31,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="<%= @global_config['LOGO_THUMBNAIL'] %>">
     <%= csrf_meta_tags %>
     <script>
+
       window.chatwootConfig = {
         hostURL: '<%= ENV.fetch('FRONTEND_URL', '') %>',
         helpCenterURL: '<%= ENV.fetch('HELPCENTER_URL', '') %>',
@@ -62,6 +63,7 @@
     <%= stylesheet_pack_tag 'application' %>
   </head>
   <body>
+  <%= button_to "Sign in with Google", user_google_oauth2_omniauth_authorize_path,  method: :post %>
     <div id="app"></div>
     <noscript id="noscript">This app works best with JavaScript enabled.</noscript>
     <%= yield %>

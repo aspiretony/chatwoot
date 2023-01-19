@@ -1,12 +1,16 @@
 Rails.application.routes.draw do
   # AUTH STARTS
+  
   match 'auth/:provider/callback', to: 'home#callback', via: [:get, :post]
   mount_devise_token_auth_for 'User', at: 'auth', controllers: {
     confirmations: 'devise_overrides/confirmations',
     passwords: 'devise_overrides/passwords',
     sessions: 'devise_overrides/sessions',
-    token_validations: 'devise_overrides/token_validations'
+    token_validations: 'gem/token_validations',
   }, via: [:get, :post]
+
+  devise_for :users, controllers: { omniauth_callbacks: 'auth/omniauth_callbacks' }
+
 
   ## renders the frontend paths only if its not an api only server
   if ActiveModel::Type::Boolean.new.cast(ENV.fetch('CW_API_ONLY_SERVER', false))
